@@ -117,17 +117,12 @@ footer a {
     margin: 0 1rem 3rem 1rem;
 }
 
-.bkgpic {
-    width:100%;
-    background-image: url('../media/images/jakes-meals.jpg');
-    background-repeat: repeat-x;
-    background-size: cover;
+@media (min-width: 750px){
+    .bkgpic {
+   
+    height: 250px;
+    background: url('../media/images/jakes-meals.jpg') repeat-x;
 }
-
-@media only screen and (max-width:750px){
-    .banner{
-        background-image: none;
-    }
 }
 
 /* breakpoint chosen because around this width, the "soup" in "chicken tortilla soup" wraps to the next line. You may have chosen a different dimension and that's fine. Just have a reason for choosing your breakpoint! */
